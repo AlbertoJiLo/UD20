@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="UD20_maven.UD20.AppTest" time="0.028" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="I:\Users\CASA\eclipse-workspace\UD20\target\test-classes;I:\Users\CASA\eclipse-workspace\UD20\target\classes;I:\Users\CASA\.m2\repository\junit\junit\4.11\junit-4.11.jar;I:\Users\CASA\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="I:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="sun.java.command" value="I:\Users\CASA\AppData\Local\Temp\surefire3616600123284518390\surefirebooter3974404260177742724.jar I:\Users\CASA\AppData\Local\Temp\surefire3616600123284518390 2022-10-27T08-45-05_897-jvmRun1 surefire6046568385335403175tmp surefire_02139341673203236421tmp"/>
+    <property name="surefire.test.class.path" value="I:\Users\CASA\eclipse-workspace\UD20\target\test-classes;I:\Users\CASA\eclipse-workspace\UD20\target\classes;I:\Users\CASA\.m2\repository\junit\junit\4.11\junit-4.11.jar;I:\Users\CASA\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="I:\Users\CASA"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="I:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="basedir" value="I:\Users\CASA\eclipse-workspace\UD20"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="I:\Users\CASA\AppData\Local\Temp\surefire3616600123284518390\surefirebooter3974404260177742724.jar"/>
+    <property name="sun.boot.class.path" value="I:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;I:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;I:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;I:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;I:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;I:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;I:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;I:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="CASA"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="I:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="I:\Users\CASA\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="I:\Users\CASA\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="I:\Users\CASA\eclipse-workspace\UD20"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="I:\Program Files\Java\jdk1.8.0_202\jre\bin;I:\WINDOWS\Sun\Java\bin;I:\WINDOWS\system32;I:\WINDOWS;I:\Program Files\Common Files\Oracle\Java\javapath;I:\Program Files (x86)\Common Files\Oracle\Java\javapath;I:\Program Files\Common Files\Microsoft Shared\Windows Live;I:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;I:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin;I:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\libnvvp;I:\ProgramData\Oracle\Java\javapath;I:\Program Files (x86)\Intel\iCLS Client\;I:\Program Files\Intel\iCLS Client\;I:\Windows\system32;I:\Windows;I:\Windows\System32\Wbem;I:\Windows\System32\WindowsPowerShell\v1.0\;I:\Program Files\Intel\Intel(R) Management Engine Components\DAL;I:\Program Files\Intel\Intel(R) Management Engine Components\IPT;I:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;I:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;I:\Program Files (x86)\Skype\Phone\;I:\Program Files\Microsoft SQL Server\130\Tools\Binn\;I:\Program Files (x86)\Windows Live\Shared;I:\Program Files (x86)\GtkSharp\2.12\bin;I:\WINDOWS\system32;I:\WINDOWS;I:\WINDOWS\System32\Wbem;I:\WINDOWS\System32\WindowsPowerShell\v1.0\;I:\WINDOWS\System32\OpenSSH\;I:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;I:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;I:\WINDOWS\system32;I:\WINDOWS;I:\WINDOWS\System32\Wbem;I:\WINDOWS\System32\WindowsPowerShell\v1.0\;I:\WINDOWS\System32\OpenSSH\;I:\Program Files (x86)\QuickTime\QTSystem\;I:\Program Files\dotnet\;I:\Program Files\Git\cmd;I:\Program Files\TortoiseGit\bin;I:\Program Files\Docker\Docker\resources\bin;I:\Users\CASA\AppData\Local\Microsoft\WindowsApps;I:\Users\CASA\.dotnet\tools;I:\Users\CASA\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.ext.dirs" value="I:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;I:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="UD20_maven.UD20.AppTest" time="0.012"/>
+</testsuite>
