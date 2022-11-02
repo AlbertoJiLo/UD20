@@ -1,4 +1,6 @@
-package UD20_maven.UD20_ejercicio7;
+
+package UD20_maven.UD20.ejercicio7;
+
 
 import java.awt.EventQueue;
 

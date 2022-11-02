@@ -1,4 +1,6 @@
+
 package UD20_maven.UD20_ejercicio8;
+
 
 import java.awt.EventQueue;
 
@@ -10,6 +12,7 @@ public class MainApp {
 			public void run() {
 				try {
 					InterfazGrafica8 frame = new InterfazGrafica8();
+
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -17,5 +20,4 @@ public class MainApp {
 			}
 		});
 	}
-	
 }
