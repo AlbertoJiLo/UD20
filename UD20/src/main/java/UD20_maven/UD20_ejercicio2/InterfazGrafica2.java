@@ -16,6 +16,7 @@ public class InterfazGrafica2 extends JFrame {
 	private JPanel contentPane;
 
 	public InterfazGrafica2() {
+		setTitle("Ventana con interacción");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
@@ -23,6 +24,8 @@ public class InterfazGrafica2 extends JFrame {
 
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
+		
+		//Creamos los botones, casillas y textos necesarios.
 		
 		JLabel lblNewLabel = new JLabel("Has pulsado: Boton 1");
 		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 20));
@@ -38,6 +41,8 @@ public class InterfazGrafica2 extends JFrame {
 		contentPane.add(btnNewButton_1);
 		
 		//Eventos
+		
+		//Eventos para mostrar el botón pulsado.
 		
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {

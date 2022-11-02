@@ -18,13 +18,15 @@ public class InterfazGrafica3 extends JFrame {
 	int i=0;
 	
 	public InterfazGrafica3() {
-
 		
+		setTitle("Ventana con mas interaccion");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
+		//Creamos los botones, casillas y textos necesarios.
+		
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
@@ -42,6 +44,8 @@ public class InterfazGrafica3 extends JFrame {
 		contentPane.add(lblNewLabel);
 		
 		//Eventos
+		
+		//Eventos para mostrar el número de veces que el botón ha sido pulsado además de cambiar el respectivo contador
 		
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {

@@ -1,6 +1,4 @@
-
-package UD20_maven.UD20.ejercicio7;
-
+package UD20_maven.UD20_ejercicio4;
 
 import java.awt.EventQueue;
 
@@ -9,7 +7,7 @@ public class MainApp {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					InterfazGrafica7 frame = new InterfazGrafica7();
+					InterfazGrafica4 frame = new InterfazGrafica4();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();

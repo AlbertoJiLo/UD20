@@ -1,4 +1,5 @@
-package UD20_maven.UD20.ejercicio5;
+
+package UD20_maven.UD20_ejercicio5;
 
 import java.awt.EventQueue;
 
@@ -7,7 +8,9 @@ public class MainApp {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					EventosRaton frame = new EventosRaton();
+
+					InterfazGrafica5 frame = new InterfazGrafica5();
+
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -15,5 +18,4 @@ public class MainApp {
 			}
 		});
 	}
-
 }
